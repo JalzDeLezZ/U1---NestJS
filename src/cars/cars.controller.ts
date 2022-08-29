@@ -10,6 +10,7 @@ import {
   Post,
 } from '@nestjs/common';
 import { CarsService } from './cars.service';
+import { DTOCreateCard } from './dto/create-car.dto';
 
 @Controller('cars')
 export class CarsController {
@@ -27,7 +28,7 @@ export class CarsController {
   }
 
   @Post()
-  createCar(@Body() oForm: any) {
+  createCar(@Body() oForm: DTOCreateCard) {
     return oForm;
     // return this._carService.createCar(oForm);
   }
