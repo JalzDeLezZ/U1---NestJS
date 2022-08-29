@@ -1,3 +1,7 @@
+
+yarn add uuid
+$ yarn add -D @types/uuid
+
 $ nest g s cars --no-spec
 $ nest g mo cars
 
