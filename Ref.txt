@@ -1,0 +1,7 @@
+$ nest g s cars --no-spec
+$ nest g mo cars
+
+$ nest g co cars
+
+optional:
+yarn remove prettier
